@@ -658,7 +658,7 @@ public class BuiltInFunctionNamespaceManager
                 .function(SET_AGG)
                 .function(SET_UNION)
                 .function(new ArrayAggregationFunction(featuresConfig.isLegacyArrayAgg(), featuresConfig.getArrayAggGroupImplementation()))
-		.function(STRING_AGGREGATION_FUNCTION)
+                .function(STRING_AGGREGATION_FUNCTION)
                 .functions(new MapSubscriptOperator(featuresConfig.isLegacyMapSubscript()))
                 .functions(MAP_CONSTRUCTOR, MAP_TO_JSON, JSON_TO_MAP, JSON_STRING_TO_MAP)
                 .functions(MAP_AGG, MAP_UNION)
